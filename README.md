@@ -13,12 +13,15 @@ MNIST with anomaly datasets
 ## データセット
 
 train.zip - ラベル付けされたMNISTの手書き数字画像21,038枚
+
 test.zip - ラベル付けされたMNISTの手書き数字画像20,962枚
+
 anomaly.zip - ラベル付けされてにない画像28,000枚で、内MNISTの手書き数字画像が27990枚、例外画像10枚
 
 ## プログラム
 
 autoencoder.py - train以下のデータをオートエンコーダーで分散表現化
+
 find_anomaly.py - Metric Learningによる例外画像の検出
 
 ## License
