@@ -20,7 +20,7 @@ anomaly.zip - ラベル付けされてにない画像28,000枚で、内MNISTの�
 
 ## プログラム
 
-autoencoder.py - train以下のデータをオートエンコーダーで分散表現化
+autoencoder.py - オートエンコーダーで分散表現化
 
 find_anomaly.py - Metric Learningによる例外画像の検出
 
