@@ -38,6 +38,13 @@ class NMIST_Manifold_NN(chainer.Chain):
 		x = F.tanh(self.layer7(x))
 		return self.layer8(x)
 
+	def manifold(self, x):
+		# ニューラルネットワークによる多様体学習
+		x = F.tanh(self.layer1(x))
+		x = F.tanh(self.layer2(x))
+		x = F.tanh(self.layer3(x))
+		return F.tanh(self.layer4(x))
+
 # ニューラルネットワークを作成
 net = NMIST_Manifold_NN()
 fun = F.mean_absolute_error
