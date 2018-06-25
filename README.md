@@ -23,7 +23,3 @@ anomaly.zip - ラベル付けされていない画像28,000枚で、内MNISTの�
 autoencoder.py - オートエンコーダーで分散表現化
 
 find_anomaly.py - Metric Learningによる例外画像の検出
-
-## License
-
-[Gnu AGPL 3.0](LICENSE)
