@@ -8,7 +8,7 @@ MNIST with anomaly datasets
 
 ![result](clusters.png)
 
-![詳しい解説][1]
+[詳しい解説][1]
 
 ## データセット
 
@@ -24,4 +24,4 @@ autoencoder.py - オートエンコーダーで分散表現化
 
 find_anomaly.py - Metric Learningによる例外画像の検出
 
-[1]https://cocon-corporation.com/cocontoco//find_anomaly_values/
+[1]: https://cocon-corporation.com/cocontoco//find_anomaly_values/
